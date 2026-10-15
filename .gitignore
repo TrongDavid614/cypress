@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Cypress generated files
+cypress/videos/
+cypress/screenshots/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+npm-debug.log*

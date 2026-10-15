@@ -1,0 +1,16 @@
+{
+  "name": "cypress-8threadsevent",
+  "version": "1.0.0",
+  "description": "BDD E2E Test Suite for 8ThreadsEvent using Cypress and Cucumber",
+  "scripts": {
+    "test": "cypress run --spec \"cypress/e2e/features/**/*.feature\"",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --spec \"cypress/e2e/features/**/*.feature\""
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "cypress": "^16.1.1",
+    "esbuild": "^0.25.0"
+  }
+}

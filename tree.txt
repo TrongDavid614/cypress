@@ -1,0 +1,25 @@
+cypress-8threadsevent/
+├── .cypress-cucumber-preprocessorrc.json
+├── cypress
+│   ├── e2e
+│   │   ├── features
+│   │   │   ├── 01_login.feature
+│   │   │   ├── 02_select_seat.feature
+│   │   │   ├── 03_vnpay_payment.feature
+│   │   │   └── vnpay_ncb_payment.feature
+│   │   └── step_definitions
+│   │       ├── login.steps.js
+│   │       ├── payment.steps.js
+│   │       ├── select_seat.steps.js
+│   │       └── vnpay_ncb_payment.steps.js
+│   ├── fixtures
+│   │   ├── user_data.json
+│   │   └── vnpay_cards.json
+│   ├── screenshots
+│   └── support
+│       ├── commands.js
+│       └── e2e.js
+├── cypress.config.js
+├── export-tree.js
+├── Orders.json
+└── package.json

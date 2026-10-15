@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "bank": "NCB",
+    "cardNumber": "9704198526191432198",
+    "cardHolder": "NGUYEN VAN A",
+    "issueDate": "07/15",
+    "otp": "123456",
+    "note": "Thành công"
+  },
+  {
+    "id": 2,
+    "bank": "NCB",
+    "cardNumber": "9704195798459170488",
+    "cardHolder": "NGUYEN VAN A",
+    "issueDate": "07/15",
+    "otp": null,
+    "note": "Thẻ không đủ số dư"
+  }
+]
